@@ -1,0 +1,3 @@
+[submodule "FrontEnd/Frontend"]
+	path = FrontEnd/Frontend
+	url = https://github.com/Anugrah-Singh/vaidyaBot
