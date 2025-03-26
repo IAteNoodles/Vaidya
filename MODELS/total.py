@@ -15,8 +15,9 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="happy")
 model = "hermes-3-llama-3.2-3b"
 url = "http://192.168.28.168:5000/save_patient"
 
+api_key="insert your api"
 # Configure Gemini API
-genai.configure(api_key="AIzaSyC_9O6jp--RJAxgVx-zz1N87BWrX0P_WzI")
+genai.configure(api_key)
 
 # MongoDB setup
 mongo_client = MongoClient("mongodb://Vaidya:123@192.168.28.168:27017/Vaidya?authSource=admin")  # Update with your MongoDB URI
